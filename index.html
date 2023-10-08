@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaggBox</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="flex">
+      <a href="#" class="link red">HOME</a>
+      <a href="#" class="link">PRODUCTS</a>
+      <a href="#" class="link">BLOG</a>
+      <a href="#" class="link">CONTACT</a>
+    </div>
+  </nav>
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-text">
+        <h1 class="hero-h1 red">Sale 20% Off</h1>
+        <h1 class="hero-h1">On Everything</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit nulla veniam in, explicabo eaque
+          architecto nesciunt voluptate error consequuntur aliquam nihil laborum ipsa similique ad assumenda nam id
+          dolorem. Optio?</p>
+        <button class="cta">Shop Now</button>
+      </div>
+      <img src="./images/img.png" alt="hero image" class="hero-img">
+    </div>
+  </section>
+
+
+  <section class="gallery">
+    <h3 class="gallery-heading">Social <span class="red">Gallery</span></h3>
+
+
+    <div class="slide-container swiper">
+      <div class="slide-content">
+        <div class="card-wrapper swiper-wrapper">
+
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <img src="./images/janhvikapoor.png" alt="" srcset="" class="overlay">
+            </div>
+
+            <div class="card-content">
+              <p class="description">Don't tell people your plans, show them your results</p>
+              <p class="description blue">#janhvikapoor</p>
+              
+              <div class="small-card">
+                <img src="./images/janhvikapoor.png" alt="" srcset="" class="small-card-img">
+                <div class="small-card-text">
+                  <h4 class="small-card-text-name">Janhvi Kapoor</h4>
+                  <p class="description">@janhvikapoor . 25 mins ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <img src="./images/hrithikroshanupdatess.jfif" alt="" srcset="" class="overlay">
+            </div>
+
+            <div class="card-content">
+              <p class="description">Call me a hot mess, but never a fashion disaster.</p>
+              <p class="description blue">#hrithikroshan</p>
+              
+              <div class="small-card">
+                <img src="./images/hrithikroshanupdatess.jfif" alt="" srcset="" class="small-card-img">
+                <div class="small-card-text">
+                  <h4 class="small-card-text-name">Hrithik Roshan</h4>
+                  <p class="description">@hrithikroshan . 2 hours ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <img src="./images/marvellovess.jfif" alt="" srcset="" class="overlay">
+            </div>
+
+            <div class="card-content">
+              <p class="description">I had the best day yesterday, with my friends.</p>
+              <p class="description blue">#marvellovess</p>
+              
+              <div class="small-card">
+                <img src="./images/marvellovess.jfif" alt="" srcset="" class="small-card-img">
+                <div class="small-card-text">
+                  <h4 class="small-card-text-name">Marvel Lovess</h4>
+                  <p class="description">@marvellovess . 30 mins ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <img src="./images/hrithikroshanupdatess.jfif" alt="" srcset="" class="overlay">
+            </div>
+
+            <div class="card-content">
+              <p class="description">Call me a hot mess, but never a fashion disaster.</p>
+              <p class="description blue">#hrithikroshan</p>
+              
+              <div class="small-card">
+                <img src="./images/hrithikroshanupdatess.jfif" alt="" srcset="" class="small-card-img">
+                <div class="small-card-text">
+                  <h4 class="small-card-text-name">Hrithik Roshan</h4>
+                  <p class="description">@hrithikroshan . 2 hours ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <img src="./images/marvellovess.jfif" alt="" srcset="" class="overlay">
+            </div>
+
+            <div class="card-content">
+              <p class="description">I had the best day yesterday, with my friends.</p>
+              <p class="description blue">#marvellovess</p>
+              
+              <div class="small-card">
+                <img src="./images/marvellovess.jfif" alt="" srcset="" class="small-card-img">
+                <div class="small-card-text">
+                  <h4 class="small-card-text-name">Marvel Lovess</h4>
+                  <p class="description">@marvellovess . 30 mins ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="swiper-button-next swiper-navBtn"></div>
+      <div class="swiper-button-prev swiper-navBtn"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+</body>
+<script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/script.js"></script>
+<script>
+
+  var swiper = new Swiper(".slide-content", {
+    slidesPerView: 3,
+    spaceBetween: 25,
+    loop: true,
+    centerSlide: 'true',
+    fade: 'true',
+    grabCursor: 'true',
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      520: {
+        slidesPerView: 2,
+      },
+      950: {
+        slidesPerView: 3,
+      },
+    },
+  });
+
+</script>
+
+</html>
